@@ -7,5 +7,7 @@ public class T4Run {
 		int res = t4.add(10,20);
 		
 		System.out.println("res : "+res);
+		System.out.println("수정버전");
+		
 	}
 }
