@@ -8,6 +8,7 @@ public class T4Run {
 		
 		System.out.println("res : "+res);
 		System.out.println("수정버전");
+		System.out.println("수정버전2");
 		
 	}
 }
