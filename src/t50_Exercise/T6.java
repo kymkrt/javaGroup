@@ -6,5 +6,6 @@ public class T6 {
 		System.out.println("물가가 너무 비싸");
 		System.out.println("물가가 너무 비싸");
 		
+		System.out.println("qweqweqwe");
 	}
 }
