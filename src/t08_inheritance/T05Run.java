@@ -6,5 +6,8 @@ public class T05Run {
 		
 		t5.areaCircle(10);
 		
+		t5.div(15, 4);
+		
+		System.out.println("메인끝");
 	}
 }
