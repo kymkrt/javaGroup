@@ -6,6 +6,6 @@ public class BunsikRun {
 		Wooju woo =new Wooju();
 		Seoul seo =new Seoul();
 		
-		menu[] menu
+		//menu[] menu
 	}
 }

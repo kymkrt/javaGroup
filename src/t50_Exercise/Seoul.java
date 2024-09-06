@@ -5,7 +5,7 @@ public class Seoul extends Bonsa{
 
 	@Override
 	public void kimchi() {
-		System.out.println("김치찌개 - "+);
+		//System.out.println("김치찌개 - "+);
 	}
 
 	@Override
