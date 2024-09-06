@@ -1,4 +1,4 @@
-package T01_class;
+package t01_class;
 
 public class T04 {
 	public static void main(String[] args) {

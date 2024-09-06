@@ -1,4 +1,4 @@
-package T01_class;
+package t01_class;
 
 public class Test1 {
 	
