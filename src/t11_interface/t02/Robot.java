@@ -4,8 +4,8 @@ public class Robot implements Toy {
 	private int age = 8;
 
 	@Override
-	public void age() {
-		System.out.println(age+"세 이상만 사용하실수 있습니다");
+	public void age(int age) {
+		System.out.println(age +" 살은 사용가능");
 	}
 
 	@Override
@@ -31,5 +31,9 @@ public class Robot implements Toy {
 		System.out.println("장난감 이름 : "+name);
 	}
 
+	@Override
+	public int getAge() {
+		return this.age;
+	}
 
 }

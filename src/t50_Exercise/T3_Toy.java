@@ -1,4 +1,6 @@
-package t11_interface.t02;
+package t50_Exercise;
+
+
 /*
 소비자가 장난감을 구매하려고한다.
 각 장난감별 사용 연령대가 있다 
@@ -13,12 +15,14 @@ package t11_interface.t02;
 ============================
 숙졔 연령별 사용 가능한 장난감을 표시하시오
 */
-public interface Toy {
+public interface T3_Toy {
 	void product(String name);
-	void age(int age);
+	void age();
 	void monving();
 	void fire();
 	void missile();
+	
 	int possibleAge();
-	int getAge();
+	
+	
 }

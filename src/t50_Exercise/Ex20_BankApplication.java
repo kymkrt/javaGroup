@@ -10,7 +10,7 @@ public class Ex20_BankApplication {
 		boolean run = true;
 		while (run) {
 			System.out.println("-----------------------------");
-			System.out.println("1.계좌생성|2.계좌목록|3.예금|4.출금|5.종료");
+			System.out.println("1.계좌생성|2.계좌목록|3.예금|4.출금|5.계좌삭제|6.종료");
 			System.out.println("-----------------------------");
 			System.out.print("선택> ");
 			
@@ -29,6 +29,9 @@ public class Ex20_BankApplication {
 				withdraw();
 			}
 			else if(selectNo==5) {
+				deleteAccount();
+			}
+			else if(selectNo==6) {
 				run=false;
 			}
 		}
@@ -123,5 +126,32 @@ public class Ex20_BankApplication {
 			}
 		}
 		return account;
+	}
+//계좌 삭제 메소드
+	private static void deleteAccount() {
+		System.out.println("------------------------------");
+		System.out.println("계좌삭제");
+		System.out.println("------------------------------");
+		System.out.print("계좌번호 :");
+		String ano = scanner.next();
+		
+		Ex20_Account account =findAccount(ano); //계좌검색 메소드 호출
+		
+		if(account == null) 
+		{
+			System.out.println("결과: 찾는 계좌정보가 없습니다");
+			return;
+		}
+		else 
+		{
+			for(int i=0;i<accountArray.length;i++) {
+				if(account.equals(accountArray[i])) {
+					accountArray[i] = accountArray[i+1];
+					accountArray[i+1] = null;
+					System.out.println("결과: 계좌가 삭제되었습니다");
+					break;
+				}
+			}
+		}
 	}
 }

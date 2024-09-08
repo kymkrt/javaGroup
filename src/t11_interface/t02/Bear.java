@@ -4,8 +4,8 @@ public class Bear implements Toy {
 	private int age = 0;
 
 	@Override
-	public void age() {
-		System.out.println("모든 연령대가 다 사용하실수 있습니다");
+	public void age(int age) {
+		System.out.println(age +" 살은 사용가능");
 	}
 
 	@Override
@@ -27,6 +27,11 @@ public class Bear implements Toy {
 	@Override
 	public void product(String name) {
 		System.out.println("장난감 이름 : "+name);
+	}
+	
+	@Override
+	public int getAge() {
+		return this.age;
 	}
 
 }

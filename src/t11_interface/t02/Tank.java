@@ -4,8 +4,8 @@ public class Tank implements Toy {
 	private int age = 13;
 
 	@Override
-	public void age() {
-		System.out.println(age+"세 이상만 사용하실수 있습니다");
+	public void age(int age) {
+		System.out.println(age +" 살은 사용가능");
 	}
 
 	@Override
@@ -30,6 +30,8 @@ public class Tank implements Toy {
 	public void product(String name) {
 		System.out.println("장난감 이름 : "+name);
 	}
-
-
+	
+	public int getAge() {
+		return this.age;
+	}
 }
