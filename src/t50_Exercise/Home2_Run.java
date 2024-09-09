@@ -3,7 +3,7 @@ package t50_Exercise;
 import java.util.Scanner;
 
 //배역을 입력했을때 해당 배우의 역할 출력
-public class Home_2Run {
+public class Home2_Run {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String ans;
