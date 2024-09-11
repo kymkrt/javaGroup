@@ -14,6 +14,7 @@ public class Test4 {
 		System.out.println("main 스레드 종료");
 	}
 }
+
 class MyThread3 extends Thread{
 	@Override
 	public void run() {
