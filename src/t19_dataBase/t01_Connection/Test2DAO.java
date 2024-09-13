@@ -10,6 +10,7 @@ public class Test2DAO {
 	public Test2DAO() {
 		try {
 			//클래스 찾는 클래스 jdbc 드라이버
+			//데이터베이스에 연결하기 위해서 드라이버가 필요하다 그래서 위에걸 올려놔야됨 
 			Class.forName("com.mysql.jdbc.Driver");//3306은 mysql포트번호
 			String url = "jdbc:mysql://localhost:3306/javagroup";
 			String user = "atom";
@@ -28,7 +29,6 @@ public class Test2DAO {
 		try {
 			if(conn!=null) conn.close();
 		} catch (SQLException e) {}
-		
 		
 	}
 }

@@ -36,7 +36,7 @@ public class TestDAO {
 	//test테이블의 전체자료 조회 원래는 출력을 서비스에서 해야함
 	public void getList() {
 		try {//무조건 sql로 mysql쓰면 안됨
-			//DB 검색
+			//DB 검색 연결은 커넥션 사용 
 			Statement stmt = conn.createStatement();
 			sql = "select*from test"; //입력순서로 가져옴 idx순서
 			ResultSet rs=stmt.executeQuery(sql);//검색할때 사용하는 /result set 저기서 레코드 하나 받아오는 객체

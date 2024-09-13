@@ -9,9 +9,10 @@ create table test1(  /* 이것도 주석 가능하면 괄호안에 들어갈때 
 	address varchar(10) /*주소*/
 );
 
-select* from test1;
+select * from test1;
 
-desc test;/*생성된 테이블의 구조 보기*/
+desc test;
+/*생성된 테이블의 구조 보기*/
 
 insert into test (name, age, gender, address) values ('홍길동', 23,'남자','서울'); /*레코드 삽입*/
 insert into test values ('김말숙', 30,'여자','청주'); 
