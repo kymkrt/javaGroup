@@ -8,6 +8,8 @@ create table test(  /* 이것도 주석 가능하면 괄호안에 들어갈때 �
 	address varchar(10) /*주소*/
 );
 
+select * from test;
+
 desc test;/*생성된 테이블의 구조 보기*/
 
 drop table test; /*테이블 삭제처리*/

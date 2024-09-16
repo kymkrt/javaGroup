@@ -14,7 +14,7 @@ public class Test1 {
 //			int su=200;
 			System.out.println("su : "+su);
 		}
-		System.out.println("이곳은 Test1 클래스읜 modTest1 메소드 입니다");
+		System.out.println("이곳은 Test1 클래스의 modTest1 메소드 입니다");
 	}
 	
 	public class Aa{
