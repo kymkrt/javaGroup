@@ -18,7 +18,6 @@ public class Test2DAO {
 			conn = DriverManager.getConnection(url, user, password);
 		} catch (ClassNotFoundException e) {
 			System.out.println("드라이버 검색실패"+e.getMessage());
-			
 		} catch (SQLException e) {
 			System.out.println("데이터베이스 연동/연결실패 "+e.getMessage());
 		}

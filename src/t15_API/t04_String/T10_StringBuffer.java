@@ -36,7 +36,5 @@ public class T10_StringBuffer {
 		System.out.println("10.str2: "+str2);
 		System.out.println("11.str2버퍼크기: "+str2.capacity());// 늘어난 가변길이가 줄어들지 않는다 초기화시키기전까지
 		
-		
-		
 	}
 }

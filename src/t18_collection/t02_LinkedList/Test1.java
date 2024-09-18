@@ -65,7 +65,7 @@ public class Test1 {
 		System.out.println("5.linkedList크기 : "+linkedList);
 		System.out.println();
 		
-		//자료삽입(add(인덱스 번호, 요소)) 인덱스 번호 없으면 무조건 뒤 인덱스 번호 적으면 그 위치로? 이거 수정 필요
+		//자료삽입(add(인덱스 번호, 요소)) 인덱스 번호 없으면 무조건 뒤 인덱스 번호 적으면 그 위치에 삽입되고 나머지는 전부 한칸씩 밀림
 		linkedList.add(1, "그린");;
 		System.out.println("6.linkedList크기 : "+linkedList.size());
 		System.out.println("6.linkedList크기 : "+linkedList);
