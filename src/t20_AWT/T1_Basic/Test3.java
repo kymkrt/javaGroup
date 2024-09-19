@@ -23,8 +23,6 @@ public class Test3 extends Frame implements WindowListener{
 		//자바뿐만 아니라 웹에서도 작동원리 똑같음
 	}
 	
-	
-	
 	//인터페이스라 추상메소드가 있어 오버라이딩
 	//리스너이므로 이런것들을 감지하는것
 	@Override
