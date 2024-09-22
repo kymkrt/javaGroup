@@ -195,7 +195,7 @@ public class HoewonDAO {
 		} catch (SQLException e) {
 			System.out.println("sql 오류: "+e.getMessage());
 		}finally {
-			pstmtClose();//왜 점이 없지?? //업데이트임 셀렉트 아니라 pstmClose
+			pstmtClose();//업데이트임 셀렉트 아니라 pstmClose
 		} 
 		
 		return res;
