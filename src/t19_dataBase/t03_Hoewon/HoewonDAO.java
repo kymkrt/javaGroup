@@ -95,7 +95,7 @@ public class HoewonDAO {
 			res=pstmt.executeUpdate(); //마지막에 sql 안넣음 
 			
 		} catch (SQLException e) {
-			// TODO: handle exception
+			
 		}finally {
 			pstmtClose();//이거만 닫음 rs안닫음
 		}
